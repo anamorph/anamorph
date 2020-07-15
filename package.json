@@ -1,0 +1,24 @@
+{
+    "name": "myDopeReadme",
+    "version": "1.0.0",
+    "description": "this will build my dope README.md file in a special repository folder.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anamorph/anamorph.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/anamorph/anamorph/issues"
+    },
+    "homepage": "https://nuage.ninja",
+    "dependencies": {
+      "markdown-it": "^11.0.0"
+    }
+  }
+  
