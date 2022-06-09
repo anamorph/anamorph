@@ -5,7 +5,7 @@ const md = require("markdown-it")({
   });
   
   // details
-  const currentRole = "Digital Innovation Senior consultant";
+  const currentRole = "Senior Startups Solutions Architect, Middle East";
   const currentCompany = "Amazon Web Services";
   const currentCompanyUrl = "https://aws.amazon.com/aws-me/";
   const currentCountry = "Bahrain";
