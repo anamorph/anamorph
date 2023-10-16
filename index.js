@@ -13,7 +13,7 @@ const md = require("markdown-it")({
   const fs = require("fs");
    
   (async () => {
-    blurb = `Hello World !\n\nI am Nicolas (Nico) David, a ${currentRole} at [${currentCompany}](${currentCompanyUrl}), based in ${currentCountry} &#127463;&#127469;.\n\n`;
+    blurb = `Hello World !\n\nI am Nicolas (Nico) David, a ${currentRole} at [${currentCompany}](${currentCompanyUrl}), based in ${currentCountry} &#127463;&#127469;.\n\n![](https://github.com/anamorph/anamorph/workflows/README.md%20builder/badge.svg)`;
   
     const result = md.render(blurb);
   
